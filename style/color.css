@@ -8,13 +8,15 @@
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
+
+
 /* header starts here */
 header{
     background-color: #FFFFFF;
     padding: 20px 120px;
     width:100%;
     max-width: 1140px;
-    margin:0,auto;
+    margin:0 auto;
    
 }
 nav{
@@ -133,9 +135,8 @@ nav{
     justify-content: center;
     gap: 20px;
     max-width: 1140px;
-    /* margin: 0 auto; */
-    margin:44px auto 0;
-    /* flex-wrap:wrap; */
+    margin: 0 auto;
+   
 
 }
 .family-card-image{
@@ -171,18 +172,18 @@ nav{
 /* section-3 start*/
 .Solution{
     display: flex;
-    padding: 120px;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
+    gap: 60px;
+    /* padding: 0 120px; */
+    justify-content: space-between;
     background-color: #FFFFFF;
     max-width: 1140px;
-    margin-left: 120px;
-    margin: 0 auto;
+    /* margin-left: 120px; */
+    margin: 120px auto;
 }
 .Solution-image{
     max-width: 100%;
-    flex: 1;
+    flex:1;
 }
 .Solution-container span{
     font-size: 16px;
@@ -219,8 +220,8 @@ nav{
     text-align: center;
     border-radius: 12px;
     max-width: 1140px;
-    margin: 150px ;
-    margin-top: 0;
+    margin: 120px auto;
+    /* margin-top: 0; */
 }
 .ready-to h2{
     font-size: 40px;
